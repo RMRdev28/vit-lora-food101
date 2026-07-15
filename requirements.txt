@@ -1,0 +1,11 @@
+# local serving (CPU inference is fine: ~300 ms/image)
+torch>=2.1
+# <5 required: the LoRA adapter is saved against transformers v4 module names
+# (query/value); v5 renamed them (q_proj/v_proj) and can't load the adapter
+transformers>=4.44,<5
+peft>=0.11
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.24
