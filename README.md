@@ -4,7 +4,7 @@
 > top-1 on Food-101 — beating a decade of published results including the full fine-tune of the
 > same backbone — served through a web app with drag-and-drop testing.
 
-![ui](docs/ui.png) *(add a screenshot of the web UI here)*
+![ui](docs/sample_grid.png) 
 
 ---
 
